@@ -9,20 +9,24 @@
     <div class="navbar">
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="travel_recommendation.html">Home</a></li>
                 <li><a href="about_us.html">About us</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
                 <li><input type="text" id="" placeholder="Enter a destination keyword"></li>
                 <li><button id='btnSearch'>Search</button></li>
                 <li><button id='btnReset'>Reset</button></li>
             </ul>    
         </nav>
     </div>
-    <div class="introContainer">
+    <div>
         <div class="title">
-            <h1>TRAVEL ON YOUR DREAM DESTINATION</h1>            
+            <h1>CONTACT US</h1>
+            <div>
+                <h4>
+                    Get in touch...
+                </h>
+            </div>
         </div>
-
         <div class="container">
             <div class="socialIcons">
                 <ul>
@@ -33,17 +37,30 @@
                     <li><a href="#" class="fa fa-twitter"></a></li>
 
                 </ul>
+            </div>                
+            
+            <div class="formCont">
+                <form id="contactForm">
+                    <div>
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>                    
+                    <div>
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" onclick="thankyou()">Submit</button>
+                  </form>
             </div>
-            <div class="intro">
-                <p>Embark on a journey of discovery with our travel site, 
-                    where adventure awaits at every click. Whether you crave 
-                    the vibrant bustle of urban landscapes, the serenity of remote beaches, 
-                    or the timeless charm of historical landmarks, we offer a gateway to the 
-                    world's most captivating destinations. From meticulously curated itineraries to insider tips and unbeatable deals, let us be your compass in navigating the globe. 
-                    Start your next unforgettable voyage with us today.</p>
-            </div>
-        </div>
 
+        </div>
+        
+    
     </div>
+    
 </body>
 </html>
