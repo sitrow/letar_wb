@@ -9,19 +9,25 @@
     <div class="navbar">
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="about_us.html">About us</a></li>
-                <li><a href="">Contact us</a></li>
-                <li><input type="text" id="" placeholder="Enter a destination keyword"></li>
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about_us.html">About us</a></li>
+                <li><a href="./contact_us.html">Contact us</a></li>
+                <li><input type="text" id="searchInput" placeholder="Enter a destination keyword"></li>
                 <li><button id='btnSearch'>Search</button></li>
+                
                 <li><button id='btnReset'>Reset</button></li>
             </ul>    
         </nav>
+        
     </div>
+    
     <div class="introContainer">
         <div class="title">
-            <h1>TRAVEL ON YOUR DREAM DESTINATION</h1>            
+            <h1>TRAVEL ON YOUR DREAM DESTINATION</h1>  
+            <div id="searchResults"></div>                   
         </div>
+        
+         
 
         <div class="container">
             <div class="socialIcons">
@@ -45,5 +51,6 @@
         </div>
 
     </div>
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>
